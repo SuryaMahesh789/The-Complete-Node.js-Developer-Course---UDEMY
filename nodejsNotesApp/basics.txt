@@ -1,0 +1,24 @@
+check version of node 
+node --v
+
+check version of npm 
+npm --v
+
+1. Check a Specific Package Version (Chalk, Yargs, etc.)
+npm list <Package-name>
+
+npm list chalk 
+
+npm list yargs 
+
+npm list validator
+
+install nodemon
+
+npm install -g nodemon
+
+verify global installation path - npm list -g --depth=0
+
+npx nodemon app.js
+
+
